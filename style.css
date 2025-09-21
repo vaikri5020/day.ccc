@@ -1,0 +1,129 @@
+*{
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:#FAC67A;
+  position: fixed;
+}
+.navbar ul li a {
+    display: flex;
+    justify-content: center;
+  color: rgb(240, 234, 234);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul li a:hover{
+    background-color:rgb(130, 233, 75);
+    
+}
+
+
+.name{
+    text-align: center;    
+    height: 100vh;
+    font-size: xx-large;
+    font-style: bold;
+    font-family: cursive;
+    color:white;
+    background-image: url(images/image.jpg);
+    background-size: cover;
+    transition: 0.3s;
+   
+
+}
+
+
+
+.menu{
+    text-align: center;
+}
+.section{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.section h1{
+    font-size: x-large;
+}
+.items{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    background: linear-gradient(to right,#eae5e6,#d8c1c6);
+}
+.items img{
+    border-radius: 25%;
+    height: 100px;
+    width: 200px;
+    margin: 15px 21px;
+    border-radius: 50%;
+    transition: transform 0.5s ease,box-shadow 0.5s ease;
+}
+.items:hover{
+    transform: scale(1.2);
+    box-shadow: 2px 2px 5px 6px;
+}
+.timeline{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+    font-size: larger;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    background: linear-gradient( to right,#ded789,#B8001F);
+
+}
+.timeitem{
+    height:200px;
+    width: 200px;
+    padding: 20px;
+    border: 2px solid #DC143C ;
+    border-radius: 40%;
+    background-color:#F75270;
+    transition: 0.2s,box-shawdow 0.3s  ease-in;
+    color: aliceblue;
+    margin: 40px;
+}
+.timeitem:hover{
+    background-color:linear-gradient;
+    transform: scale(1.2);
+    border:1px solid white;
+}
+.contact{
+    text-align: center;
+    margin-top: 5vw;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    font-style: bold;
+}
+.information{
+    width: 100vw;
+    height: 70vh;
+    margin-top: 10vh;
+    font-style: oblique;
+    background-color:#000B58 ;
+   display: block;
+    gap: 15px;
+}
+.information ul li{
+    padding: 15px 15px;
+}
